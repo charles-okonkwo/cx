@@ -180,6 +180,7 @@ h9 {
     body {
         margin: 0;
         text-align: center;
+        overflow-x: hidden;
     }
 
     .my-image {
@@ -201,8 +202,8 @@ h9 {
     }
 
     .mountain-image {
-        position: relative;
-        left: px;
+        position: static;
+        
 
         width: 400px;
 
